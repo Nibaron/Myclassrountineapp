@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightorange"
+
+    >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RUET"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#f14ddb22"
+        android:textSize="20dp"
+        android:background="#e90b0b"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CSE 16"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#f14ddb22"
+        android:textSize="20dp"
+        android:background="#e90b0b"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT THE SECTION"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#f14ddb22"
+        android:textSize="20dp"
+        android:background="#e90b0b"/>
+
+    <Button
+        android:id="@+id/btn22"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Section  b" />
+
+
+</LinearLayout>

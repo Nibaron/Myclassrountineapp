@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightorangedark"
+    tools:context=".MainActivity01"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WELCOME"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:textSize="60sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:layout_width="398dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="CLASS ROUTINE CSE'16"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginTop="50dp"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnEnter"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:background="@color/lightorange"
+        android:gravity="center"
+        android:text="CLICK HERE TO ENTER"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:text="        made by NIBARON"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:textSize="25dp" />
+
+
+</LinearLayout>
+
+

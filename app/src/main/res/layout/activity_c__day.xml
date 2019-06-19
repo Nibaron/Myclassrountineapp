@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightorange"
+    tools:context=".RoutineActivity">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RUET"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#f14ddb22"
+        android:textSize="20dp"
+        android:background="#e90b0b"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CSE 16"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#f14ddb22"
+        android:textSize="20dp"
+        android:background="#e90b0b"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Routine for DAY C"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#f14ddb22"
+        android:textSize="20dp"
+        android:background="#e90b0b"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Lab List"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnr4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="NO LAB TODAY"
+        android:background="#b7c729"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="List of Classes"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/btnr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="MATH 2113
+ 8 A.M. to 8.50 a.m.
+Room no:101"
+        android:background="#0fc3d4"/>
+    <Button
+        android:id="@+id/btnr2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="CSE 2101
+ 8.50 A.M. to 9.40 a.m.
+Room no:101"
+        android:background="#0fc3d4"/>
+    <Button
+        android:id="@+id/btnr3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="CSE 2103
+ 9.40 A.M. to 10.30 a.m.
+Room no:101"
+        android:background="#0fc3d4"/>
+
+
+
+</LinearLayout>
